@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.UI.Windows;
 using UnityEngine.UI.Windows.Components;
 using System.Collections;
-using UnityEngine.UI.Windows.Plugins.Analytics;
+using UnityEngine.UI.Windows.UserInfo;
 
 namespace ExampleProject.UI.Other.MainLoader {
 
