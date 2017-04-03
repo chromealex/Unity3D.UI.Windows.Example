@@ -7,9 +7,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 435672}
-  - 4: {fileID: 409334}
-  - 4: {fileID: 496288}
+  - 4: {fileID: 421664}
   - 20: {fileID: 2058946}
   - 114: {fileID: 11462388}
   m_Layer: 5
@@ -19,20 +17,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &409334
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &435672
+--- !u!4 &421664
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -44,23 +29,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &496288
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
 --- !u!20 &2058946
 Camera:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -94,7 +66,7 @@ Camera:
   m_StereoMirrorMode: 0
 --- !u!114 &11462388
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -237,8 +209,8 @@ MonoBehaviour:
   paused: 0
   layouts:
     types:
-    - 486f72697a6f6e74616c
-    - 566572746963616c
+    - Horizontal
+    - Vertical
     layouts:
     - enabled: 1
       scaleMode: 0
@@ -436,9 +408,9 @@ MonoBehaviour:
     layoutNoResource: {fileID: 0}
     layoutResource:
       async: 1
-      assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f4164646f6e732f466c6f772f4578616d706c652f5265736f75726365732f4578616d706c6550726f6a6563742f4c6f616465722f4c6f6164696e672f4c61796f7574732f4c6f6164696e674c61796f75742e707265666162
+      assetPath: Assets/UI.Windows.Module/Addons/Flow/Example/Resources/ExampleProject/Loader/Loading/Layouts/LoadingLayout.prefab
       assetBundleName: 
-      resourcesPath: 4578616d706c6550726f6a6563742f4c6f616465722f4c6f6164696e672f4c61796f7574732f4c6f6164696e674c61796f7574
+      resourcesPath: ExampleProject/Loader/Loading/Layouts/LoadingLayout
       webPath: 
       loadableWeb: 0
       loadableResource: 1
@@ -473,14 +445,14 @@ MonoBehaviour:
       controlType: 0
       tempObject: {fileID: 11417546, guid: 43471c08672684197b79a669c64ea4f6, type: 2}
     components:
-    - description: 434f4e54454e5420424f52444552
+    - description: CONTENT BORDER
       tag: 1
       component: {fileID: 11440684, guid: 6b0d4b9b340964ac6bf02fc6512720fa, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f496d6167652f4465636f7261746f722e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Image/Decorator.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f496d6167652f4465636f7261746f72
+        resourcesPath: DefaultLib/Forms/Basic/Image/Decorator
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -517,14 +489,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 0}
       editorParametersFoldout: 0
-    - description: 434f4e54454e5420494e4e4552
+    - description: CONTENT INNER
       tag: 2
       component: {fileID: 11435158, guid: 99d0d25ac20704092be5d4c540f9cd3c, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f416476616e6365642f50726f67726573732f50726f67726573732d426c75652f50726f67726573732e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Advanced/Progress/Progress-Blue/Progress.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f416476616e6365642f50726f67726573732f50726f67726573732d426c75652f50726f6772657373
+        resourcesPath: DefaultLib/Forms/Advanced/Progress/Progress-Blue/Progress
         webPath: 
         loadableWeb: 0
         loadableResource: 1

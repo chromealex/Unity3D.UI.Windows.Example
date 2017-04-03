@@ -95,7 +95,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 22451790}
-  - 224: {fileID: 22449122}
   - 114: {fileID: 11487960}
   - 114: {fileID: 11442514}
   - 114: {fileID: 11449094}
@@ -173,7 +172,6 @@ MonoBehaviour:
   - {fileID: 11456108}
   - {fileID: 11489960}
   manualShowHideControl: 0
-  animationRefresh: 1
   lastAnimation: {fileID: 11400000, guid: 27c682eaedbe74bdea85cfcdf84e1989, type: 2}
   tag: 1
   containsLayouts: 1
@@ -194,15 +192,15 @@ MonoBehaviour:
   editorMinHeight: 130
   tempEditorRect:
     serializedVersion: 2
-    x: 0
-    y: 19.691406
-    width: 446
-    height: 252.61719
+    x: -596.14
+    y: -412.80005
+    width: 1761.28
+    height: 997.60004
   editorDrawDepth: 0
   editorHovered: 0
 --- !u!114 &11442514
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149122}
@@ -223,7 +221,7 @@ MonoBehaviour:
   m_DynamicPixelsPerUnit: 1
 --- !u!114 &11449094
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149122}
@@ -264,9 +262,8 @@ MonoBehaviour:
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
-  tag: 6
+  tag: 2
   containsLayouts: 0
   comment: BACK
   autoStretchX: 1
@@ -285,10 +282,10 @@ MonoBehaviour:
   editorMinHeight: 30
   tempEditorRect:
     serializedVersion: 2
-    x: -21.777344
-    y: -2.0859375
-    width: 489.5547
-    height: 296.17188
+    x: -682.14
+    y: -498.8
+    width: 1933.28
+    height: 1169.6
   editorDrawDepth: 1
   editorHovered: 0
 --- !u!114 &11449118
@@ -320,9 +317,8 @@ MonoBehaviour:
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
-  tag: 2
+  tag: 3
   containsLayouts: 1
   comment: CONTENT BORDER
   autoStretchX: 0
@@ -341,15 +337,15 @@ MonoBehaviour:
   editorMinHeight: 130
   tempEditorRect:
     serializedVersion: 2
-    x: 125.00195
-    y: 117.68945
-    width: 195.9961
-    height: 56.621094
+    x: -102.5
+    y: -25.800049
+    width: 774
+    height: 223.6
   editorDrawDepth: 1
   editorHovered: 0
 --- !u!114 &11449120
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149120}
@@ -370,10 +366,10 @@ MonoBehaviour:
   margin: 100
   editorRectLocal:
     serializedVersion: 2
-    x: -512
-    y: -290
-    width: 1024
-    height: 580
+    x: -50
+    y: -50
+    width: 100
+    height: 100
   editorRect:
     serializedVersion: 2
     x: -512
@@ -463,9 +459,8 @@ MonoBehaviour:
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
-  tag: 5
+  tag: 6
   containsLayouts: 0
   comment: BUTTON1
   autoStretchX: 0
@@ -484,10 +479,10 @@ MonoBehaviour:
   editorMinHeight: -1
   tempEditorRect:
     serializedVersion: 2
-    x: 190.33398
-    y: 143.82227
-    width: 65.33203
-    height: 23.955078
+    x: 155.5
+    y: 77.400024
+    width: 258
+    height: 94.6
   editorDrawDepth: 3
   editorHovered: 0
 --- !u!114 &11453426
@@ -518,9 +513,8 @@ MonoBehaviour:
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
-  tag: 4
+  tag: 5
   containsLayouts: 1
   comment: BUTTONS
   autoStretchX: 0
@@ -539,10 +533,10 @@ MonoBehaviour:
   editorMinHeight: 60
   tempEditorRect:
     serializedVersion: 2
-    x: 129.35742
-    y: 141.64453
-    width: 187.28516
-    height: 28.310547
+    x: -85.30002
+    y: 68.80005
+    width: 739.60004
+    height: 111.8
   editorDrawDepth: 2
   editorHovered: 0
 --- !u!114 &11453428
@@ -628,7 +622,7 @@ MonoBehaviour:
       to: 0
 --- !u!114 &11480534
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149122}
@@ -637,7 +631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b5b23a0262a548f09dea1c5333626ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 22349122}
+  canvas: {fileID: 0}
   canvasScaler: {fileID: 11442514}
 --- !u!114 &11481304
 MonoBehaviour:
@@ -666,9 +660,8 @@ MonoBehaviour:
   childsHideMode: 0
   animationInputParams: []
   manualShowHideControl: 0
-  animationRefresh: 0
   lastAnimation: {fileID: 0}
-  tag: 3
+  tag: 4
   containsLayouts: 0
   comment: CONTENT INNER
   autoStretchX: 0
@@ -687,10 +680,10 @@ MonoBehaviour:
   editorMinHeight: 30
   tempEditorRect:
     serializedVersion: 2
-    x: 129.35742
-    y: 122.04492
-    width: 187.28516
-    height: 15.244141
+    x: -85.30002
+    y: -8.599976
+    width: 739.60004
+    height: 60.2
   editorDrawDepth: 2
   editorHovered: 0
 --- !u!114 &11487556
@@ -733,7 +726,7 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
 --- !u!114 &11487960
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149122}
@@ -758,11 +751,11 @@ MonoBehaviour:
   root: {fileID: 11449120}
   elements:
   - {fileID: 11404854}
+  - {fileID: 11449116}
   - {fileID: 11449118}
   - {fileID: 11481304}
   - {fileID: 11453426}
   - {fileID: 11453424}
-  - {fileID: 11449116}
   showGrid: 0
   gridSize: {x: 5, y: 5}
   canvas: {fileID: 22349122}
@@ -915,7 +908,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22449120
 RectTransform:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149120}
@@ -925,16 +918,16 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 22435240}
-  m_Father: {fileID: 22449122}
+  m_Father: {fileID: 22451790}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &22449122
+--- !u!224 &22451790
 RectTransform:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 149122}
@@ -946,24 +939,6 @@ RectTransform:
   - {fileID: 22449120}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
---- !u!224 &22451790
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 149122}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}

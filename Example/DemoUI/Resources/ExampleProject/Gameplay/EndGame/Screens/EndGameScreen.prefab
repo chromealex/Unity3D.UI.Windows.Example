@@ -7,9 +7,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 413820}
-  - 4: {fileID: 446664}
-  - 4: {fileID: 448702}
+  - 4: {fileID: 484048}
   - 20: {fileID: 2058946}
   - 114: {fileID: 11403518}
   - 114: {fileID: 11433804}
@@ -22,7 +20,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &413820
+--- !u!4 &484048
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -34,36 +32,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &446664
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &448702
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!20 &2058946
 Camera:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -97,7 +69,7 @@ Camera:
   m_StereoMirrorMode: 0
 --- !u!114 &11403518
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -240,8 +212,8 @@ MonoBehaviour:
   paused: 0
   layouts:
     types:
-    - 486f72697a6f6e74616c
-    - 566572746963616c
+    - Horizontal
+    - Vertical
     layouts:
     - enabled: 1
       scaleMode: 0
@@ -334,7 +306,7 @@ MonoBehaviour:
         sortingOrder: 0
         componentParameters: {fileID: 0}
         editorParametersFoldout: 0
-      - description: CONTENT BORDER
+      - description: BACK
         tag: 2
         component: {fileID: 0}
         componentResource:
@@ -378,7 +350,7 @@ MonoBehaviour:
         sortingOrder: 0
         componentParameters: {fileID: 0}
         editorParametersFoldout: 0
-      - description: CONTENT INNER
+      - description: CONTENT BORDER
         tag: 3
         component: {fileID: 11450942, guid: a493e1b7fca90429aa46f68cfd682136, type: 2}
         componentResource:
@@ -423,7 +395,7 @@ MonoBehaviour:
         sortingOrder: 0
         componentParameters: {fileID: 11433804}
         editorParametersFoldout: 0
-      - description: BUTTONS
+      - description: CONTENT INNER
         tag: 4
         component: {fileID: 0}
         componentResource:
@@ -467,7 +439,7 @@ MonoBehaviour:
         sortingOrder: 0
         componentParameters: {fileID: 0}
         editorParametersFoldout: 0
-      - description: BUTTON1
+      - description: BUTTONS
         tag: 5
         component: {fileID: 11406580, guid: 9bf90bc083aa34747a0502152e8c7f75, type: 2}
         componentResource:
@@ -512,7 +484,7 @@ MonoBehaviour:
         sortingOrder: 0
         componentParameters: {fileID: 11487372}
         editorParametersFoldout: 0
-      - description: BACK
+      - description: BUTTON1
         tag: 6
         component: {fileID: 11434048, guid: 4a516d85509574b799df59b34c2e378c, type: 2}
         componentResource:
@@ -616,9 +588,9 @@ MonoBehaviour:
     layoutNoResource: {fileID: 0}
     layoutResource:
       async: 1
-      assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f4164646f6e732f466c6f772f4578616d706c652f5265736f75726365732f4578616d706c6550726f6a6563742f47616d65706c61792f456e6447616d652f4c61796f7574732f456e6447616d654c61796f75742e707265666162
+      assetPath: Assets/UI.Windows.Module/Addons/Flow/Example/Resources/ExampleProject/Gameplay/EndGame/Layouts/EndGameLayout.prefab
       assetBundleName: 
-      resourcesPath: 4578616d706c6550726f6a6563742f47616d65706c61792f456e6447616d652f4c61796f7574732f456e6447616d654c61796f7574
+      resourcesPath: ExampleProject/Gameplay/EndGame/Layouts/EndGameLayout
       webPath: 
       loadableWeb: 0
       loadableResource: 1
@@ -653,7 +625,7 @@ MonoBehaviour:
       controlType: 0
       tempObject: {fileID: 11487960, guid: 1b4d2ebc8f57947c68a8269ba1ffc2b6, type: 2}
     components:
-    - description: 424f52444552
+    - description: BORDER
       tag: 1
       component: {fileID: 0}
       componentResource:
@@ -697,7 +669,7 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 0}
       editorParametersFoldout: 0
-    - description: 434f4e54454e5420424f52444552
+    - description: CONTENT BORDER
       tag: 2
       component: {fileID: 0}
       componentResource:
@@ -741,14 +713,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 0}
       editorParametersFoldout: 0
-    - description: 434f4e54454e5420494e4e4552
+    - description: CONTENT INNER
       tag: 3
       component: {fileID: 11450942, guid: a493e1b7fca90429aa46f68cfd682136, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f546578742f546578742e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Text/Text.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f546578742f54657874
+        resourcesPath: DefaultLib/Forms/Basic/Text/Text
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -785,7 +757,7 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 11433804}
       editorParametersFoldout: 0
-    - description: 425554544f4e53
+    - description: BUTTONS
       tag: 4
       component: {fileID: 0}
       componentResource:
@@ -829,14 +801,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 0}
       editorParametersFoldout: 0
-    - description: 425554544f4e31
+    - description: BUTTON1
       tag: 5
       component: {fileID: 11406580, guid: 9bf90bc083aa34747a0502152e8c7f75, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f427574746f6e732f427574746f6e2e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Buttons/Button.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f427574746f6e732f427574746f6e
+        resourcesPath: DefaultLib/Forms/Basic/Buttons/Button
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -873,14 +845,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 11487372}
       editorParametersFoldout: 0
-    - description: 4241434b
+    - description: BACK
       tag: 6
       component: {fileID: 11434048, guid: 4a516d85509574b799df59b34c2e378c, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f496d6167652f496d6167652e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Image/Image.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f496d6167652f496d616765
+        resourcesPath: DefaultLib/Forms/Basic/Image/Image
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -919,7 +891,7 @@ MonoBehaviour:
       editorParametersFoldout: 1
 --- !u!114 &11433804
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -954,7 +926,7 @@ MonoBehaviour:
   valueAnimateDuration: 2
 --- !u!114 &11486642
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -978,7 +950,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &11487372
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}

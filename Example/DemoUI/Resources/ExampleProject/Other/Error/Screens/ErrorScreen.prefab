@@ -7,13 +7,11 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 447548}
-  - 114: {fileID: 11424560}
+  - 4: {fileID: 415962}
   - 20: {fileID: 2058946}
+  - 114: {fileID: 11424560}
   - 114: {fileID: 11406576}
   - 114: {fileID: 11489830}
-  - 4: {fileID: 474480}
-  - 4: {fileID: 478300}
   - 114: {fileID: 11430806}
   - 114: {fileID: 11463076}
   m_Layer: 5
@@ -23,7 +21,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &447548
+--- !u!4 &415962
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -35,36 +33,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &474480
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &478300
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 9
 --- !u!20 &2058946
 Camera:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -98,7 +70,7 @@ Camera:
   m_StereoMirrorMode: 0
 --- !u!114 &11406576
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -165,7 +137,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &11424560
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -308,8 +280,8 @@ MonoBehaviour:
   paused: 0
   layouts:
     types:
-    - 486f72697a6f6e74616c
-    - 566572746963616c
+    - Horizontal
+    - Vertical
     layouts:
     - enabled: 1
       scaleMode: 0
@@ -551,9 +523,9 @@ MonoBehaviour:
     layoutNoResource: {fileID: 0}
     layoutResource:
       async: 1
-      assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f4164646f6e732f466c6f772f4578616d706c652f5265736f75726365732f4578616d706c6550726f6a6563742f4f746865722f4572726f722f4c61796f7574732f4572726f724c61796f75742e707265666162
+      assetPath: Assets/UI.Windows.Module/Addons/Flow/Example/Resources/ExampleProject/Other/Error/Layouts/ErrorLayout.prefab
       assetBundleName: 
-      resourcesPath: 4578616d706c6550726f6a6563742f4f746865722f4572726f722f4c61796f7574732f4572726f724c61796f7574
+      resourcesPath: ExampleProject/Other/Error/Layouts/ErrorLayout
       webPath: 
       loadableWeb: 0
       loadableResource: 1
@@ -588,7 +560,7 @@ MonoBehaviour:
       controlType: 0
       tempObject: {fileID: 11445118, guid: 3089039c00f034d988a9445040315e19, type: 2}
     components:
-    - description: 434f4e54454e5420424f52444552
+    - description: CONTENT BORDER
       tag: 1
       component: {fileID: 0}
       componentResource:
@@ -632,14 +604,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 0}
       editorParametersFoldout: 1
-    - description: 52657065617420427574746f6e
+    - description: Repeat Button
       tag: 2
       component: {fileID: 11406580, guid: 9bf90bc083aa34747a0502152e8c7f75, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f427574746f6e732f427574746f6e2e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Buttons/Button.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f427574746f6e732f427574746f6e
+        resourcesPath: DefaultLib/Forms/Basic/Buttons/Button
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -676,14 +648,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 11406576}
       editorParametersFoldout: 0
-    - description: 54657874
+    - description: Text
       tag: 3
       component: {fileID: 11450942, guid: a493e1b7fca90429aa46f68cfd682136, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f546578742f546578742e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Text/Text.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f546578742f54657874
+        resourcesPath: DefaultLib/Forms/Basic/Text/Text
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -722,7 +694,7 @@ MonoBehaviour:
       editorParametersFoldout: 0
 --- !u!114 &11430806
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -757,7 +729,7 @@ MonoBehaviour:
   valueAnimateDuration: 2
 --- !u!114 &11463076
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -824,7 +796,7 @@ MonoBehaviour:
   loop: 0
 --- !u!114 &11489830
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}

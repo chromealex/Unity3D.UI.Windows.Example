@@ -7,9 +7,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 430554}
-  - 4: {fileID: 439200}
-  - 4: {fileID: 469332}
+  - 4: {fileID: 448644}
   - 20: {fileID: 2058946}
   - 114: {fileID: 11423032}
   - 114: {fileID: 11459776}
@@ -21,7 +19,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &430554
+--- !u!4 &448644
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -33,36 +31,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &439200
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &469332
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
 --- !u!20 &2058946
 Camera:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -96,7 +68,7 @@ Camera:
   m_StereoMirrorMode: 0
 --- !u!114 &11423032
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -131,7 +103,7 @@ MonoBehaviour:
   valueAnimateDuration: 2
 --- !u!114 &11459776
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -274,8 +246,8 @@ MonoBehaviour:
   paused: 0
   layouts:
     types:
-    - 486f72697a6f6e74616c
-    - 566572746963616c
+    - Horizontal
+    - Vertical
     layouts:
     - enabled: 1
       scaleMode: 0
@@ -472,9 +444,9 @@ MonoBehaviour:
     layoutNoResource: {fileID: 0}
     layoutResource:
       async: 1
-      assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f4164646f6e732f466c6f772f4578616d706c652f5265736f75726365732f4578616d706c6550726f6a6563742f4f746865722f55736572496e666f2f4c61796f7574732f55736572496e666f4c61796f75742e707265666162
+      assetPath: Assets/UI.Windows.Module/Addons/Flow/Example/Resources/ExampleProject/Other/UserInfo/Layouts/UserInfoLayout.prefab
       assetBundleName: 
-      resourcesPath: 4578616d706c6550726f6a6563742f4f746865722f55736572496e666f2f4c61796f7574732f55736572496e666f4c61796f7574
+      resourcesPath: ExampleProject/Other/UserInfo/Layouts/UserInfoLayout
       webPath: 
       loadableWeb: 0
       loadableResource: 1
@@ -509,7 +481,7 @@ MonoBehaviour:
       controlType: 0
       tempObject: {fileID: 11466150, guid: f58fec169c0df42c896d4ddb06649ab3, type: 2}
     components:
-    - description: 434f4e54454e5420424f52444552
+    - description: CONTENT BORDER
       tag: 1
       component: {fileID: 0}
       componentResource:
@@ -553,14 +525,14 @@ MonoBehaviour:
       sortingOrder: 0
       componentParameters: {fileID: 0}
       editorParametersFoldout: 0
-    - description: 434f4e54454e5420494e4e4552
+    - description: CONTENT INNER
       tag: 2
       component: {fileID: 11450942, guid: a493e1b7fca90429aa46f68cfd682136, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f436f6d706f6e656e74732f5265736f75726365732f44656661756c744c69622f466f726d732f42617369632f546578742f546578742e707265666162
+        assetPath: Assets/UI.Windows.Module/Components/Resources/DefaultLib/Forms/Basic/Text/Text.prefab
         assetBundleName: 
-        resourcesPath: 44656661756c744c69622f466f726d732f42617369632f546578742f54657874
+        resourcesPath: DefaultLib/Forms/Basic/Text/Text
         webPath: 
         loadableWeb: 0
         loadableResource: 1
@@ -599,7 +571,7 @@ MonoBehaviour:
       editorParametersFoldout: 1
 --- !u!114 &11473622
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}

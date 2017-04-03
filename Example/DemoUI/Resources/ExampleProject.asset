@@ -16,7 +16,7 @@ MonoBehaviour:
   version:
     major: 1
     minor: 0
-    release: 7
+    release: 6
     type: a
   authKey: asd-qwenh
   editorAuthKey: qwenh
@@ -191,14 +191,14 @@ MonoBehaviour:
   screens:
   - windowId: 25
     resourcesPath: ExampleProject/Gameplay/GameplayView/Screens/GameplayViewScreen
-    window: {fileID: 0}
+    window: {fileID: 11473104, guid: b6d43529562f9462691a838ce28842d8, type: 2}
     name: GameplayViewScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Gameplay/GameplayView/Screens/GameplayViewScreen.prefab
   runtimeScreens:
   - windowId: 25
     resourcesPath: ExampleProject/Gameplay/GameplayView/Screens/GameplayViewScreen
-    window: {fileID: 0}
+    window: {fileID: 11473104, guid: b6d43529562f9462691a838ce28842d8, type: 2}
     name: GameplayViewScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Gameplay/GameplayView/Screens/GameplayViewScreen.prefab
@@ -437,14 +437,14 @@ MonoBehaviour:
   screens:
   - windowId: 28
     resourcesPath: ExampleProject/Gameplay/EndGame/Screens/EndGameScreen
-    window: {fileID: 0}
+    window: {fileID: 11403518, guid: 9831f535775374629933c7ae78734fa8, type: 2}
     name: EndGameScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Gameplay/EndGame/Screens/EndGameScreen.prefab
   runtimeScreens:
   - windowId: 28
     resourcesPath: ExampleProject/Gameplay/EndGame/Screens/EndGameScreen
-    window: {fileID: 0}
+    window: {fileID: 11403518, guid: 9831f535775374629933c7ae78734fa8, type: 2}
     name: EndGameScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Gameplay/EndGame/Screens/EndGameScreen.prefab
@@ -501,14 +501,14 @@ MonoBehaviour:
   screens:
   - windowId: 32
     resourcesPath: ExampleProject/Other/Error/Screens/ErrorScreen
-    window: {fileID: 0}
+    window: {fileID: 11424560, guid: f72fde0524b9146b6967cd1ec424f0ec, type: 2}
     name: ErrorScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Other/Error/Screens/ErrorScreen.prefab
   runtimeScreens:
   - windowId: 32
     resourcesPath: ExampleProject/Other/Error/Screens/ErrorScreen
-    window: {fileID: 0}
+    window: {fileID: 11424560, guid: f72fde0524b9146b6967cd1ec424f0ec, type: 2}
     name: ErrorScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Other/Error/Screens/ErrorScreen.prefab
@@ -641,14 +641,14 @@ MonoBehaviour:
   screens:
   - windowId: 40
     resourcesPath: ExampleProject/Loader/Loading/Screens/LoadingScreen
-    window: {fileID: 0}
+    window: {fileID: 11462388, guid: 9dc41f8f523744b968986ee513502ade, type: 2}
     name: LoadingScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Loader/Loading/Screens/LoadingScreen.prefab
   runtimeScreens:
   - windowId: 40
     resourcesPath: ExampleProject/Loader/Loading/Screens/LoadingScreen
-    window: {fileID: 0}
+    window: {fileID: 11462388, guid: 9dc41f8f523744b968986ee513502ade, type: 2}
     name: LoadingScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Loader/Loading/Screens/LoadingScreen.prefab
@@ -852,14 +852,14 @@ MonoBehaviour:
   screens:
   - windowId: 45
     resourcesPath: ExampleProject/Other/UserInfo/Screens/UserInfoScreen
-    window: {fileID: 0}
+    window: {fileID: 11459776, guid: 9150c5bed80284fccb5a16592d481ed4, type: 2}
     name: UserInfoScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Other/UserInfo/Screens/UserInfoScreen.prefab
   runtimeScreens:
   - windowId: 45
     resourcesPath: ExampleProject/Other/UserInfo/Screens/UserInfoScreen
-    window: {fileID: 0}
+    window: {fileID: 11459776, guid: 9150c5bed80284fccb5a16592d481ed4, type: 2}
     name: UserInfoScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Other/UserInfo/Screens/UserInfoScreen.prefab
@@ -928,14 +928,14 @@ MonoBehaviour:
   screens:
   - windowId: 18
     resourcesPath: ExampleProject/Other/MainLoader/Screens/MainLoaderScreen
-    window: {fileID: 0}
+    window: {fileID: 11444904, guid: e2642943da6f94692a8c0c03a75b0100, type: 2}
     name: MainLoaderScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Other/MainLoader/Screens/MainLoaderScreen.prefab
   runtimeScreens:
   - windowId: 18
     resourcesPath: ExampleProject/Other/MainLoader/Screens/MainLoaderScreen
-    window: {fileID: 0}
+    window: {fileID: 11444904, guid: e2642943da6f94692a8c0c03a75b0100, type: 2}
     name: MainLoaderScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Other/MainLoader/Screens/MainLoaderScreen.prefab
@@ -1005,14 +1005,14 @@ MonoBehaviour:
   screens:
   - windowId: 43
     resourcesPath: ExampleProject/Menu/MainMenu/Screens/MainMenuScreen
-    window: {fileID: 0}
+    window: {fileID: 11429114, guid: ea7a71e18e7404cf0b7b6aec9bdfd4a2, type: 2}
     name: MainMenuScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Menu/MainMenu/Screens/MainMenuScreen.prefab
   runtimeScreens:
   - windowId: 43
     resourcesPath: ExampleProject/Menu/MainMenu/Screens/MainMenuScreen
-    window: {fileID: 0}
+    window: {fileID: 11429114, guid: ea7a71e18e7404cf0b7b6aec9bdfd4a2, type: 2}
     name: MainMenuScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Menu/MainMenu/Screens/MainMenuScreen.prefab
@@ -1075,14 +1075,14 @@ MonoBehaviour:
   screens:
   - windowId: 29
     resourcesPath: ExampleProject/Gameplay/GameplayHUD/Screens/GameplayHUDScreen
-    window: {fileID: 0}
+    window: {fileID: 11412524, guid: 9f6f3b1e549d84656a0c3894affad429, type: 2}
     name: GameplayHUDScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Gameplay/GameplayHUD/Screens/GameplayHUDScreen.prefab
   runtimeScreens:
   - windowId: 29
     resourcesPath: ExampleProject/Gameplay/GameplayHUD/Screens/GameplayHUDScreen
-    window: {fileID: 0}
+    window: {fileID: 11412524, guid: 9f6f3b1e549d84656a0c3894affad429, type: 2}
     name: GameplayHUDScreen
     loadableResource: 1
     assetPath: Assets/UI.Windows/Addons/Flow/Example/Resources/ExampleProject/Gameplay/GameplayHUD/Screens/GameplayHUDScreen.prefab

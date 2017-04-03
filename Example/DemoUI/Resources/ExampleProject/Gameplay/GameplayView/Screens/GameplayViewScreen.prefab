@@ -7,9 +7,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 431302}
-  - 4: {fileID: 442826}
-  - 4: {fileID: 454752}
+  - 4: {fileID: 407612}
   - 20: {fileID: 2058946}
   - 114: {fileID: 11473104}
   m_Layer: 5
@@ -19,7 +17,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &431302
+--- !u!4 &407612
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -31,36 +29,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &442826
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
---- !u!4 &454752
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 158946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 6
 --- !u!20 &2058946
 Camera:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -94,7 +66,7 @@ Camera:
   m_StereoMirrorMode: 0
 --- !u!114 &11473104
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158946}
@@ -237,8 +209,8 @@ MonoBehaviour:
   paused: 0
   layouts:
     types:
-    - 486f72697a6f6e74616c
-    - 566572746963616c
+    - Horizontal
+    - Vertical
     layouts:
     - enabled: 1
       scaleMode: 0
@@ -391,9 +363,9 @@ MonoBehaviour:
     layoutNoResource: {fileID: 0}
     layoutResource:
       async: 1
-      assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f4164646f6e732f466c6f772f4578616d706c652f5265736f75726365732f4578616d706c6550726f6a6563742f47616d65706c61792f47616d65706c6179566965772f4c61796f7574732f47616d65706c6179566965774c61796f75742e707265666162
+      assetPath: Assets/UI.Windows.Module/Addons/Flow/Example/Resources/ExampleProject/Gameplay/GameplayView/Layouts/GameplayViewLayout.prefab
       assetBundleName: 
-      resourcesPath: 4578616d706c6550726f6a6563742f47616d65706c61792f47616d65706c6179566965772f4c61796f7574732f47616d65706c6179566965774c61796f7574
+      resourcesPath: ExampleProject/Gameplay/GameplayView/Layouts/GameplayViewLayout
       webPath: 
       loadableWeb: 0
       loadableResource: 1
@@ -428,14 +400,14 @@ MonoBehaviour:
       controlType: 0
       tempObject: {fileID: 11406734, guid: 1de62d07c6a654293bb461abcb2f2c25, type: 2}
     components:
-    - description: 434f4e54454e5420424f52444552
+    - description: CONTENT BORDER
       tag: 1
       component: {fileID: 11488986, guid: a82f86f636e9340078de946da591a423, type: 2}
       componentResource:
         async: 1
-        assetPath: 4173736574732f55492e57696e646f77732e4d6f64756c652f4164646f6e732f466c6f772f4578616d706c652f5265736f75726365732f4578616d706c6550726f6a6563742f47616d65706c61792f47616d65706c6179566965772f436f6d706f6e656e74732f47616d65706c61792e707265666162
+        assetPath: Assets/UI.Windows.Module/Addons/Flow/Example/Resources/ExampleProject/Gameplay/GameplayView/Components/Gameplay.prefab
         assetBundleName: 
-        resourcesPath: 4578616d706c6550726f6a6563742f47616d65706c61792f47616d65706c6179566965772f436f6d706f6e656e74732f47616d65706c6179
+        resourcesPath: ExampleProject/Gameplay/GameplayView/Components/Gameplay
         webPath: 
         loadableWeb: 0
         loadableResource: 1
