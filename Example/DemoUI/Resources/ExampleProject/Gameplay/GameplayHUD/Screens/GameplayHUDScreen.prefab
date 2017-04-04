@@ -32,7 +32,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
 --- !u!20 &2058946
 Camera:
   m_ObjectHideFlags: 1
@@ -372,6 +372,7 @@ MonoBehaviour:
         multiObjectsAssetBundle: 0
         objectIndexAssetBundle: 0
         customResourcePath: 
+        readableTexture: 0
         id: -1781799384
         cacheVersion: 0
         streamingAssetsPathStandalone: 
@@ -414,6 +415,7 @@ MonoBehaviour:
           multiObjectsAssetBundle: 0
           objectIndexAssetBundle: 0
           customResourcePath: 
+          readableTexture: 0
           id: 0
           cacheVersion: 0
           streamingAssetsPathStandalone: 
@@ -458,6 +460,7 @@ MonoBehaviour:
           multiObjectsAssetBundle: 0
           objectIndexAssetBundle: 0
           customResourcePath: 
+          readableTexture: 0
           id: -1366727761
           cacheVersion: 0
           streamingAssetsPathStandalone: 
@@ -503,6 +506,7 @@ MonoBehaviour:
           multiObjectsAssetBundle: 0
           objectIndexAssetBundle: 0
           customResourcePath: 
+          readableTexture: 0
           id: -1366727761
           cacheVersion: 0
           streamingAssetsPathStandalone: 
@@ -548,6 +552,7 @@ MonoBehaviour:
           multiObjectsAssetBundle: 0
           objectIndexAssetBundle: 0
           customResourcePath: 
+          readableTexture: 0
           id: -1366727761
           cacheVersion: 0
           streamingAssetsPathStandalone: 
@@ -598,6 +603,7 @@ MonoBehaviour:
         multiObjectsAssetBundle: 0
         objectIndexAssetBundle: 0
         customResourcePath: 
+        readableTexture: 0
         id: 0
         cacheVersion: 0
         streamingAssetsPathStandalone: 
@@ -647,6 +653,7 @@ MonoBehaviour:
       multiObjectsAssetBundle: 0
       objectIndexAssetBundle: 0
       customResourcePath: 
+      readableTexture: 0
       id: -127786142
       cacheVersion: 0
       streamingAssetsPathStandalone: 
@@ -689,6 +696,7 @@ MonoBehaviour:
         multiObjectsAssetBundle: 0
         objectIndexAssetBundle: 0
         customResourcePath: 
+        readableTexture: 0
         id: 0
         cacheVersion: 0
         streamingAssetsPathStandalone: 
@@ -733,6 +741,7 @@ MonoBehaviour:
         multiObjectsAssetBundle: 0
         objectIndexAssetBundle: 0
         customResourcePath: 
+        readableTexture: 0
         id: -1277221793
         cacheVersion: 0
         streamingAssetsPathStandalone: 
@@ -777,6 +786,7 @@ MonoBehaviour:
         multiObjectsAssetBundle: 0
         objectIndexAssetBundle: 0
         customResourcePath: 
+        readableTexture: 0
         id: -1277221793
         cacheVersion: 0
         streamingAssetsPathStandalone: 
@@ -821,6 +831,7 @@ MonoBehaviour:
         multiObjectsAssetBundle: 0
         objectIndexAssetBundle: 0
         customResourcePath: 
+        readableTexture: 0
         id: -1277221793
         cacheVersion: 0
         streamingAssetsPathStandalone: 
