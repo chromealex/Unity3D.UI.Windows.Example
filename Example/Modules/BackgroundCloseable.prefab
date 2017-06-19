@@ -76,7 +76,6 @@ MonoBehaviour:
   animationInputParams:
   - {fileID: 11450154}
   manualShowHideControl: 0
-  animationRefresh: 1
   lastAnimation: {fileID: 11400000, guid: ece04fe7fd56d429e80748c3f309bc61, type: 2}
   defaultSortingOrder: 0
   defaultBackgroundLayer: 1
